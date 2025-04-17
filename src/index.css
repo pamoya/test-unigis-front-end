@@ -1,0 +1,86 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+.begin-card{
+	position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(50%, 50%);
+}
+
+.leaflet-container {
+	position: absolute;
+
+	height: 50%;
+	width: 50%;
+}
+
+.modal-container-manual {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400;
+	background-color: azure;
+	border: 2px solid #000;
+	box-shadow: 24;
+	border-radius: 5px;
+
+	h2,
+	p {
+		padding: 10px;
+	}
+
+}
+
+.button-add-point {
+	position: fixed;
+	top: 90%;
+	left: 90%;
+	transform: translate(50%, 50%);
+}
+
+.map-form {
+	display: -webkit-box;
+    width: 40rem;
+    height: 34rem;
+}
+
+.map-display {
+	display: -webkit-box;
+    width: 40rem;
+    height: 34rem;
+	
+}
+
+.selector-form{
+	width: 12.100%;
+}
+
+.title-chart {
+	font-size:xx-large;
+    font-weight: bolder;
+}
+
+.form-point-container{
+	padding:15px;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.row-extended {
+	width: 100%;
+}
